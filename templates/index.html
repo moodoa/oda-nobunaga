@@ -1,0 +1,15 @@
+{% extends "base.html" %}
+
+{% block div %}
+        <h3 style="font-size: 60px;">⚙信長技能大師📜</h3>
+        <br>
+        <h3 style="color: rgb(95, 17, 17);">16.3FIX 反開圖</h3>
+        <img src="static/champions/nobunaga.jpeg">
+        <form action="/startgame" method="POST">
+            <input type="text", name="your_name"", placeholder="等待玩家加入"">
+            <input style="font-size: 40px;" type="submit", value="開始遊戲">
+        </form>
+        <form action="/check_scoreboard" method="POST">
+            <input style="font-size: 40px;" type="submit", value="排行榜">
+        </form>
+{% endblock %}

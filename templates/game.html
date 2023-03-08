@@ -1,0 +1,17 @@
+{% extends "base.html" %}
+
+<div class="playground">
+{% block div %}
+    <form action="/restart" method="POST">
+        <input style="font-size: 30px;" type="submit", value="跳 GAME">
+    </form>
+    <img src="{{ current_img }}" alt="pic">
+    <h3>{{ question_cnt }}/20<br>{{ current_name }}<br>score : {{ score }}</h3>
+    {% for answer in current_answers %}
+        <form action="answer_check", method="POST" class="button-container">
+            <button type="submit" name="player_ans" value="{{ answer }}">{{ answer }}</button>
+            <br>
+        </form>
+    {% endfor %}
+{% endblock %}
+</div>
