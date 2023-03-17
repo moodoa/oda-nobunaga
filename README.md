@@ -3,7 +3,8 @@
 
 ## 遊戲介面
 #### 給出英雄和四個技能選項，選擇該英雄的對應技能。
-![alt text](https://cdn-images-1.medium.com/max/1000/1*tIqxCftQmkk9TZQ08OTCZw.png)
+![alt text](https://cdn-images-1.medium.com/max/1000/1*quhVzrEYMqoby-iZmmk7iQ.png)
+#### 魔獸信長的人氣角色本多忠勝，當年戰國最強開下去直衝大本營的震撼依然歷歷在目。
 
 ## 連接 AWS RDS 資料庫做出排行榜
 #### 資料庫使用設定可參考 [大港 repo](https://github.com/moodoa/megaport_exchange) 。
