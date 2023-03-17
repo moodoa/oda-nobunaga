@@ -2,6 +2,7 @@
 ![alt text](https://cdn-images-1.medium.com/max/1000/1*BylORNoGW3ArrESjTeye6w.png)
 
 # 遊戲介面
+#### 給出英雄和四個技能選項，選擇該英雄的對應技能。
 ![alt text](https://cdn-images-1.medium.com/max/1000/1*tIqxCftQmkk9TZQ08OTCZw.png)
 
 # 連接 AWS RDS 資料庫做出排行榜
